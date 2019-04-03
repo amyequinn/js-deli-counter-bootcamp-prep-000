@@ -14,5 +14,6 @@ return "There is nobody waiting to be served!";
 
 else {
   var serving = katzDeliLine.shift();
-  return "Current serving" +serving+ "."
+  var currentlyServing = ("Currently serving, " +serving+ ".");
+  return currentlyServing;
 }
