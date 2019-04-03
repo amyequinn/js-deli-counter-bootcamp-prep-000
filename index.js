@@ -22,6 +22,6 @@ function currentLine(katzDeliLine){
   }
 var number = katzDeliLine.length;
 katzDeliLine.push(name);
-var line = ("The line is currently: " +number+ "in line");
+var line = ("The line is currently: " +number+ ".");
   return line;
 }
