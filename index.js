@@ -15,4 +15,3 @@ else {
   var serving = katzDeliLine.shift();
   return serving;
 }
-}
