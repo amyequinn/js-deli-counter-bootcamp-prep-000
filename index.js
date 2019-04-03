@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
 var number = katzDeliLine.length;
 var position = katzDeliLine.length +1;
 katzDeliLine.push(name);
-var line =("The line is currently:" +position+);
+var line = ("The line is currently:" +position+ "in line");
   return line;
 }
