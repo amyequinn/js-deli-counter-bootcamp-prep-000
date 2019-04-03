@@ -21,6 +21,8 @@ function currentLine(katzDeliLine){
   return "The line is currently empty.";
   }
 var number = katzDeliLine.length;
-var line =("The line is currently:" );
+var position = katzDeliLine.length +1;
+katzDeliLine.push(name);
+var line =("The line is currently:" +position+);
   return line;
 }
