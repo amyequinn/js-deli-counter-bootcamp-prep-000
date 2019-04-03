@@ -5,3 +5,8 @@ function takeANumber(katzDeliLine, name){
   var welcome = ("Welcome, " +name+ ". You are number " +position+ " in line.");
   return welcome;
 }
+
+function nowServing(katzDeliLine){
+  var serving = katzDeliLine.shift[0];
+  return serving; 
+}
