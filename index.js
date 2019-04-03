@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   return "The line is currently empty.";
   }
 var number = katzDeliLine.length;
-katzDeliLine.push(name);
+var name = katzDeliLine.push(name);
 var line = ("The line is currently: " +number+ ". " +name+);
   return line;
 }
